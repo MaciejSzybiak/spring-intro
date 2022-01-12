@@ -1,11 +1,8 @@
 package com.example;
 
-import org.springframework.stereotype.Component;
-
 import java.util.List;
 import java.util.Random;
 
-@Component("randomMessageService")
 public class RandomTextMessageService implements MessageService {
     public final List<String> messages = List.of("Message 1",
             "Message 2", "Message 3", "Message 4",
